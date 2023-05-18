@@ -21,7 +21,7 @@
 1. Приложите скриншот.
 
 #### Ответ
-![image](https://github.com/goddim/HW_netology_main/issues/1#issue-1715397770)
+https://github.com/goddim/HW_netology_main/issues/1#issue-1715397770
 
 ---
 
