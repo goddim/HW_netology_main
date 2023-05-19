@@ -65,6 +65,7 @@
  * скриншот браузера, где вы открыли дефолтную страницу вашего apache внутри контейнера.
 
 #### Ответ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/8c1d304f-e2f1-4abf-b7ca-9f6d78454048)
 
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/da0869c0-b81c-48dd-8c8d-11b3c516b12c)
 
