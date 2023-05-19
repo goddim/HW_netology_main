@@ -69,6 +69,8 @@
 
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/da0869c0-b81c-48dd-8c8d-11b3c516b12c)
 
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/0be9b5c0-ddea-419d-993a-3bf1bed5018f)
+
 ---
 
 ### Задание 6*
