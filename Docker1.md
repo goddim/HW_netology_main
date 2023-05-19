@@ -80,5 +80,6 @@
  * скриншот содержимого Dockerfile;
  * скриншот браузера, где apache2 из вашего контейнера выводит ваши ФИО.
 #### Ответ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/f3d8a5d4-210b-4c8c-bdcf-938895c9c698)
 
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/d0ffa62f-0f45-4c66-9e4c-f83d245f5b01)
