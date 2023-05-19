@@ -34,6 +34,8 @@
 1. Приложите скриншот.
 
 #### Ответ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/6abf9b8a-b422-4940-85d9-4511e1f97047)
+
 ---
 
 ### Задание 4 
