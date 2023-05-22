@@ -57,6 +57,7 @@ networks.
 скриншот админки pgAdmin.
 
 ### Ответ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/33fa3775-4c9d-42cc-9da3-b4fec27e6cfd)
 
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/47bda9c3-811e-49d0-9b6b-6dafc701ca25)
 
