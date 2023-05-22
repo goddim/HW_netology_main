@@ -68,53 +68,8 @@ networks.
 Настройте его подключение к вашему СУБД.
 Назначьте для данного контейнера статический IP из подсети 172.22.0.0/24.
 ### Ответ
-version: '3'
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/e643881e-7f5a-4320-9dca-28d4db59f200)
 
-services:
-  netology-db:
-    image: postgres:latest
-    container_name: yashkinvo-netology-db
-    ports:
-      - 5432:5432
-    volumes:
-      - ./pg_data:/var/lib/postgresql/data/pgdata
-    environment:
-      - POSTGRES_PASSWORD=yashkinvo12!3!!
-      - POSTGRES_DB=yashkinvo_db
-      - PGDATA=/var/lib/postgresql/data/pgdata
-    networks:
-      - yashkinvo-my-netology-hw
-    restart: always
-
-  pgadmin:
-    image: dpage/pgadmin4
-    container_name: yashkinvo-pgadmin
-    environment:
-      - PGADMIN_DEFAULT_EMAIL=yashkinvo@ilove-netology.com
-      - PGADMIN_DEFAULT_PASSWORD=yashkinvo12!3!!
-    ports:
-      - "61231:80"
-    restart: always
-
-  zabbix-server:
-    image: zabbix/zabbix-server-pgsql
-    links:
-      - netology-db
-    container_name: yashkinvo-zabbix-netology
-    environment:
-      - DB_SERVER_HOST=172.22.0.0/24
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=yashkinvo12!3!!
-    ports:
-      - "10051:10051"
-    restart: always
-
-networks:
-  yashkinvo-my-netology-hw:
-    driver: bridge
-    ipam:
-      config:
-        - subnet: 172.22.0.0/24
 
 ## Задание 6
 Выполните действия и приложите текст конфига текущего сервиса:
