@@ -40,7 +40,8 @@ networks.
 Пример названия контейнера: ivanovii-netology-db.
 Назначьте для данного контейнера статический IP из подсети 172.22.0.0/24.
 ### Ответ
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/51b18a25-0819-4eff-a8d4-543540a063fd)
+
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/70da7723-c0a4-42b5-ac0a-94cf2f4f0857)
 
 ## Задание 4
 Выполните действия:
