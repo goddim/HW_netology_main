@@ -93,6 +93,7 @@ networks.
 скриншот команды docker ps;
 скриншот авторизации в админке Zabbix.
 ### Ответ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/5c34f7aa-dfd7-48e8-bfe8-f485c800ddd1)
 
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/c24fe2b3-1a04-43fc-9ed1-b46041fe545b)
 
