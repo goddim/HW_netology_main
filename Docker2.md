@@ -69,6 +69,7 @@ networks.
 Назначьте для данного контейнера статический IP из подсети 172.22.0.0/24.
 ### Ответ
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/e643881e-7f5a-4320-9dca-28d4db59f200)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/d14514fc-b90c-49b2-a376-0d7da5a108ba)
 
 
 ## Задание 6
