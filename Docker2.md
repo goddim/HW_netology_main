@@ -97,6 +97,9 @@ networks.
 
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/c24fe2b3-1a04-43fc-9ed1-b46041fe545b)
 
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/0ffd3d27-5661-4c1b-92cf-755b2c58700b)
+
+
 ## Задание 8
 Выполните действия:
 
