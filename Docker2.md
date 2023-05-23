@@ -96,6 +96,7 @@ networks.
 скриншот авторизации в админке Zabbix.
 ### Ответ
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/86b7dfb4-df81-4c36-8857-ab600af5de8d)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/8eec51ed-e6ea-4faa-8f81-a6a575238bec)
 
 version: '3'
 
