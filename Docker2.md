@@ -95,12 +95,85 @@ networks.
 скриншот команды docker ps;
 скриншот авторизации в админке Zabbix.
 ### Ответ
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/5c34f7aa-dfd7-48e8-bfe8-f485c800ddd1)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/86b7dfb4-df81-4c36-8857-ab600af5de8d)
 
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/c24fe2b3-1a04-43fc-9ed1-b46041fe545b)
+version: '3'
 
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/0ffd3d27-5661-4c1b-92cf-755b2c58700b)
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/c86be3f6-8ed9-458f-af38-00bd8cbb90bf)
+services:
+  netology-db:
+    image: postgres:latest
+    container_name: yashkinvo-netology-db
+    ports:
+      - 5432:5432
+    volumes:
+      - ./pg_data:/var/lib/postgresql/data/pgdata
+    environment:
+      - POSTGRES_PASSWORD=yashkinvo12!3!!
+      - POSTGRES_DB=yashkinvo_db
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    networks:
+      yashkinvo-my-netology-hw:
+        ipv4_address: 172.22.0.2
+    restart: always
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: yashkinvo-pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=yashkinvo@ilove-netology.com
+      - PGADMIN_DEFAULT_PASSWORD=yashkinvo12!3!!
+    ports:
+      - "61231:80"
+    networks:
+       yashkinvo-my-netology-hw:
+         ipv4_address: 172.22.0.3
+    restart: always
+
+  zabbix-server:
+    image: zabbix/zabbix-server-pgsql
+    depends_on:
+      - netology-db
+    container_name: yashkinvo-zabbix-netology
+    environment:
+      - DB_SERVER_HOST=172.22.0.2
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123
+    ports:
+      - "10051:10051"
+    networks:
+       yashkinvo-my-netology-hw:
+         ipv4_address: 172.22.0.4
+    restart: always
+
+  zabbix_wgui:
+    image: zabbix/zabbix-web-apache-pgsql
+    depends_on:
+      - netology-db
+      - zabbix-server
+    container_name: yashkinvo-netology-zabbix-frontend
+    environment:
+      - DB_SERVER_HOST=172.22.0.2
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123
+      - ZBX_SERVER_HOST=zabbix_wgui
+      - PHP_TZ
+      - DB_SERVER_HOST=zabbix_wgui
+      - PHP_TZ=Europe/Moscow
+    ports:
+      - "80:8080"
+      - "443:8443"
+    networks:
+       yashkinvo-my-netology-hw:
+         ipv4_address: 172.22.0.5
+    restart: always
+
+networks:
+  yashkinvo-my-netology-hw:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.22.0.0/24
+
 
 
 ## Задание 8
