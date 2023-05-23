@@ -68,7 +68,8 @@ networks.
 Настройте его подключение к вашему СУБД.
 Назначьте для данного контейнера статический IP из подсети 172.22.0.0/24.
 ### Ответ
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/77d18cdd-cd03-486b-aa38-e40244d22c28)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/f2e482df-23ac-4ed9-82cc-d13922ff6c1d)
+
 
 
 
@@ -80,7 +81,8 @@ networks.
 Настройте его подключение к вашему СУБД.
 Назначьте для данного контейнера статический IP из подсети 172.22.0.0/24.
 ### Ответ
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/b23af948-a44b-4bbb-a75c-277d6f21509f)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/f2e482df-23ac-4ed9-82cc-d13922ff6c1d)
+
 
 
 
