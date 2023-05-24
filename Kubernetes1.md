@@ -11,6 +11,8 @@
 2. В качестве ответа пришлите скриншот результата выполнения команды kubectl get po -n kube-system.
 
 ### Ответ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/b265b123-106f-4040-a2ce-45ad461ff2a5)
+
 ------
 ### Задание 2
 
