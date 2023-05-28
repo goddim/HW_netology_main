@@ -79,8 +79,11 @@ spec:
 
 ### Ответ
 kubectl exec redis-59766d8d86-6xxzv -- ps aux
+
 kubectl logs --since=5m redis-59766d8d86-6xxzv
+
 kubectl delete pod redis-59766d8d86-6xxzv
+
 kubectl port-forward pod/redis-59766d8d86-6xxzv 8080:6379
 
 ------
