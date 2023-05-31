@@ -20,6 +20,8 @@
 4. Проверьте доступность хостов с помощью модуля ping.
  ### Ответ
  ![image](https://github.com/goddim/HW_netology_main/assets/132663924/68c82d27-7f1e-48d1-b3a5-a7d27897ddbd)
+ ![image](https://github.com/goddim/HW_netology_main/assets/132663924/8d87e167-cdd7-43b8-a641-ec2fbaebe8fd)
+
 
 ---
 
