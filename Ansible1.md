@@ -71,3 +71,4 @@ Forks - определяет максимальное количество но�
   ### Ответ
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/48f7d177-db49-43bb-861c-aac35c3b75e6)
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/13efce7a-07f9-4c8d-aa82-fbb45e7ec2fe)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/8ec91615-0f11-46e7-8c29-790eaaae7404)
