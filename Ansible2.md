@@ -22,14 +22,7 @@
 2. Установить пакет tuned из стандартного репозитория вашей ОС. Запустить его, как демон — конфигурационный файл systemd появится автоматически при установке. Добавить tuned в автозагрузку.
 3. Изменить приветствие системы (motd) при входе на любое другое. Пожалуйста, в этом задании используйте переменную для задания приветствия. Переменную можно задавать любым удобным способом.
 ### Ответ
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/b0f20453-8143-4994-b26a-2a049299a01e)
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/9979b748-a70f-4125-bdbf-5838dc9b845d)
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/17d20fa1-15b4-4aed-8d1e-17feb7379321)
 
-
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/6ab3af05-1c2c-49c7-bad0-4bb1bb828b73)
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/9bf680f6-426c-4fbd-981a-dabca26c675d)
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/0c5fe481-50b8-4a35-8269-7d9634817067)
 
 __________________________________________________________________
 
