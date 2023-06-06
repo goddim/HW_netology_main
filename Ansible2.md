@@ -24,6 +24,7 @@
 ### Ответ
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/e2aa3281-2d20-45c6-9a25-516b9a81d80d)
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/30b2aeb1-d0ba-42ad-aafe-137e32f0a56c)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/c239a603-c8a2-4c69-aacf-b4f68bb5696d)
 
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/ed244a71-b729-4df7-a562-c208d37c493e)
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/fad4e0cc-e0ad-4c74-8eab-a629c983d047)
