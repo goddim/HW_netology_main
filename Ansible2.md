@@ -25,6 +25,8 @@
 
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/ed244a71-b729-4df7-a562-c208d37c493e)
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/fad4e0cc-e0ad-4c74-8eab-a629c983d047)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/509526c5-c83e-44e5-aa42-31f9352f0ea3)
+
 
 
 __________________________________________________________________
