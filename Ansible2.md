@@ -23,6 +23,7 @@
 3. Изменить приветствие системы (motd) при входе на любое другое. Пожалуйста, в этом задании используйте переменную для задания приветствия. Переменную можно задавать любым удобным способом.
 ### Ответ
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/e2aa3281-2d20-45c6-9a25-516b9a81d80d)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/30b2aeb1-d0ba-42ad-aafe-137e32f0a56c)
 
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/ed244a71-b729-4df7-a562-c208d37c493e)
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/fad4e0cc-e0ad-4c74-8eab-a629c983d047)
