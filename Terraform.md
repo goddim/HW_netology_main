@@ -91,6 +91,9 @@
 - [Инструкция по настройке провайдера](https://cloud.yandex.ru/docs/tutorials/infrastructure-management/terraform-quickstart#configure-terraform)  
 
 ### Ответ
+
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/6137e6a6-30a6-48cc-b9e5-a01bae07b352)
+
 ---
 
 ## Дополнительные задания* (со звёздочкой)
