@@ -68,6 +68,8 @@ https://github.com/goddim/test/commit/65cc074dca14d2904575723a369cfc433176c7ee
 1. Сделайте коммит и пуш.
 
 В качестве ответа прикрепите ссылку на граф коммитов https://github.com/ваш-логин/ваш-репозиторий/network в ваш md-файл с решением.
+### ОТВЕТ
+https://github.com/goddim/test/network
 
 ---
 ## Дополнительные задания* (со звёздочкой)
