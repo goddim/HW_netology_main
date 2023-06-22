@@ -1,5 +1,3 @@
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/629e4bdf-2e40-4327-8b0c-c626bb25ce37)# Домашнее задание к занятию «Что такое DevOps. СI/СD»
-
 
 ### Задание 1
 
