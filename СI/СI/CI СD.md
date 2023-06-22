@@ -1,4 +1,4 @@
-# Домашнее задание к занятию «Что такое DevOps. СI/СD»
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/629e4bdf-2e40-4327-8b0c-c626bb25ce37)# Домашнее задание к занятию «Что такое DevOps. СI/СD»
 
 
 ### Задание 1
@@ -12,6 +12,10 @@
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 ### ОТВЕТ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/69ae7c92-c4d9-4a4d-954d-d5c3919f4c2f)
+
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/24d1c593-5b0a-48f5-ba61-ca41af63ec77)
+
 ---
 
 ### Задание 2
