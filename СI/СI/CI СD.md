@@ -25,6 +25,37 @@
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 ### ОТВЕТ
+
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/6c95bfaf-1949-4326-936c-32bd57a3174b)
+
+скрипт
+pipeline {
+    agent any
+
+    stages {
+        stage('Clone repository') {
+            steps {
+                git branch: 'main',
+                    url: 'https://github.com/goddim/sdvps-materials.git'
+            }
+        }
+        
+        stage('Run tests') {
+            steps {
+                sh 'go test .'
+            }
+        }
+        
+        stage('Build Docker image') {
+            steps {
+                sh 'docker build .'
+            }
+        }
+    }
+}
+
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/dc9bf774-c63d-47fb-a24b-35521a1faa67)
+
 ---
 
 ### Задание 3
