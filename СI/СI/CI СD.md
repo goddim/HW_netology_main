@@ -69,6 +69,40 @@ pipeline {
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 ### ОТВЕТ
+мой pipeline для этого задания: pipeline {
+    agent any
+    
+    stages {
+        stage('Clone repository') {
+            steps {
+                git branch: 'main',
+                    url: 'https://github.com/goddim/sdvps-materials.git'
+            }
+        }
+
+        stage('Run tests') {
+            steps {
+                sh 'go test .'
+            }
+        }
+
+        stage('Build binary') {
+            steps {
+                sh 'CGO_ENABLED=0 GOOS=linux go build -o mybinary .'
+            }
+        }
+
+        stage('Upload to Nexus') {
+            steps {
+                nexusArtifactUploader nexusInstanceId: 'nexus', filePath: 'mybinary', groupId: 'com.example', artifactId: 'mybinary', version: '3.56.0-01', repositoryUrl: 'http://localhost:8081/repository/my_repo_raw/'
+            }
+        }
+    }
+}
+
+
+Возможно эти параметры я указал не верно. но не нашел информации о том, где их можно взять: nexusInstanceId: 'nexus', filePath: 'mybinary', groupId: 'com.example', artifactId: 'mybinary', version: '3.56.0-01'
+
 ---
 ## Дополнительные задания* (со звёздочкой)
 
