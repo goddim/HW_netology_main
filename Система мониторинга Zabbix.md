@@ -16,6 +16,7 @@
 
 #### ОТВЕТ
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/de0e3ac5-d89f-4206-a226-0d463add3999)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/413c5e1a-5213-4cfa-b7fe-b60d9f7d4a06)
 
 ---
 
