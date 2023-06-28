@@ -15,6 +15,8 @@
 2. Приложите в файл README.md текст использованных команд в GitHub
 
 #### ОТВЕТ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/de0e3ac5-d89f-4206-a226-0d463add3999)
+
 ---
 
 ### Задание 2 
