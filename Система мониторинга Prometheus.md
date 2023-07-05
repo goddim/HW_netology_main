@@ -55,3 +55,5 @@
 Эти задания дополнительные. Их можно не выполнять. Это не повлияет на зачёт. Вы можете их выполнить, если хотите глубже разобраться в материале.
 
 ### Ответ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/d34d2986-105a-400f-ab63-e5d1d5040199)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/72a027d2-82b0-4788-9547-ff7fe1d54fa2)
