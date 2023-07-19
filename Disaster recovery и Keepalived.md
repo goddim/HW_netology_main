@@ -44,6 +44,7 @@
 
 ### ОТВЕТ
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/ca5abf92-7c10-4a82-ab20-d64e35865c66)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/74cfaf65-4a3c-44cd-bbce-df4df43db192)
 
 ------
 
