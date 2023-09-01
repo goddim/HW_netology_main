@@ -10,6 +10,7 @@
 
 Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty.
 ## Ответ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/1875f081-fc6d-4211-9308-7ad2606a806a)
 
 ### Задание 3. Logstash
 Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch.
