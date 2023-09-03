@@ -1,4 +1,4 @@
-Домашнее задание к занятию «Очереди RabbitMQ»
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/128f5c7b-2cb0-4252-a5aa-85f878df6a4d)Домашнее задание к занятию «Очереди RabbitMQ»
 
 ### Задание 1. Установка RabbitMQ
 Используя Vagrant или VirtualBox, создайте виртуальную машину и установите RabbitMQ. Добавьте management plug-in и зайдите в веб-интерфейс.
@@ -45,8 +45,10 @@ $ rabbitmqctl cluster_status
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/023a1fa1-9e37-42cd-a447-1159485a6df8)
 
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/2385c21f-cdc2-4906-ad26-eae2a444acb7)
 
 $ rabbitmqadmin get queue='hello'
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/ed0e979f-0a92-45cc-8926-d2275ee694eb)
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 Приложите скриншот результата работы второго скрипта.
