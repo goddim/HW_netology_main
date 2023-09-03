@@ -1,4 +1,4 @@
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/128f5c7b-2cb0-4252-a5aa-85f878df6a4d)Домашнее задание к занятию «Очереди RabbitMQ»
+Домашнее задание к занятию «Очереди RabbitMQ»
 
 ### Задание 1. Установка RabbitMQ
 Используя Vagrant или VirtualBox, создайте виртуальную машину и установите RabbitMQ. Добавьте management plug-in и зайдите в веб-интерфейс.
