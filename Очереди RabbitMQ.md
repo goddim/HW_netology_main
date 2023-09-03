@@ -36,10 +36,14 @@ $ cat /etc/hosts
 Затем объедините две машины в кластер и создайте политику ha-all на все очереди.
 
 В качестве решения домашнего задания приложите скриншоты из веб-интерфейса с информацией о доступных нодах в кластере и включённой политикой.
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/2fd2af1f-5395-47d3-b8f0-d3b5f162ee36)
 
 Также приложите вывод команды с двух нод:
 
 $ rabbitmqctl cluster_status
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/8525667d-8ace-4029-a886-a453073ed752)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/023a1fa1-9e37-42cd-a447-1159485a6df8)
+
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
 
 $ rabbitmqadmin get queue='hello'
