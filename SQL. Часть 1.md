@@ -17,9 +17,11 @@
 ### Задание 1
 Получите уникальные названия районов из таблицы с адресами, которые начинаются на “K” и заканчиваются на “a” и не содержат пробелов.
 ### ОТВЕТ
+
 SELECT DISTINCT district
 FROM address
 WHERE district  LIKE 'K%a' AND NOT district LIKE '% %';
+
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/190f53c5-895a-457a-b2df-51b234febc8a)
 
 ### Задание 2
