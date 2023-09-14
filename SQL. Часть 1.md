@@ -44,7 +44,8 @@ FROM rental
 ORDER BY rental_date DESC
 LIMIT 5;
 
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/454a3950-fdcb-47e5-b745-51def79720c5)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/f5ee8334-e41e-46fb-9604-f8a308a52fb6)
+
 
  ### Задание 4
 Одним запросом получите активных покупателей, имена которых Kelly или Willie.
