@@ -38,6 +38,13 @@ WHERE CAST(payment_date AS DATE) BETWEEN '2005-06-13' AND '2005-06-18' AND amoun
 Получите последние пять аренд фильмов.
 ### ОТВЕТ
 
+SELECT *
+FROM rental
+ORDER BY rental_date DESC
+LIMIT 5;
+
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/454a3950-fdcb-47e5-b745-51def79720c5)
+
  ### Задание 4
 Одним запросом получите активных покупателей, имена которых Kelly или Willie.
 
