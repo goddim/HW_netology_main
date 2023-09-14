@@ -28,6 +28,12 @@ WHERE district  LIKE 'K%a' AND NOT district LIKE '% %';
 Получите из таблицы платежей за прокат фильмов информацию по платежам, которые выполнялись в промежуток с 15 июня 2005 года по 18 июня 2005 года включительно и стоимость которых превышает 10.00.
 ### ОТВЕТ
 
+SELECT amount, CAST(payment_date AS DATE)
+FROM payment
+WHERE CAST(payment_date AS DATE) BETWEEN '2005-06-13' AND '2005-06-18' AND amount > 10.00;
+
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/fc61469d-2500-4e39-b561-e6d06ae44a71)
+
 ### Задание 3
 Получите последние пять аренд фильмов.
 ### ОТВЕТ
