@@ -22,7 +22,8 @@ SELECT DISTINCT district
 FROM address
 WHERE district  LIKE 'K%a' AND NOT district LIKE '% %';
 
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/190f53c5-895a-457a-b2df-51b234febc8a)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/ada8ed00-e435-4f26-8775-ed2fdaa62d37)
+
 
 ### Задание 2
 Получите из таблицы платежей за прокат фильмов информацию по платежам, которые выполнялись в промежуток с 15 июня 2005 года по 18 июня 2005 года включительно и стоимость которых превышает 10.00.
