@@ -20,6 +20,7 @@
 город нахождения магазина;
 количество пользователей, закреплённых в этом магазине.
 ### Ответ
+
 SELECT 
     CONCAT(staff.first_name, ' ', staff.last_name) AS сотрудник,
     city.city AS город,
@@ -34,6 +35,8 @@ GROUP BY
     store.store_id
 HAVING 
     COUNT(customer.customer_id) > 300;
+
+    
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/151b13d1-2188-43a0-8c7b-c5952f058197)
 
 
