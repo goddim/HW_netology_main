@@ -16,11 +16,27 @@
 
 ### Задание 1
 Одним запросом получите информацию о магазине, в котором обслуживается более 300 покупателей, и выведите в результат следующую информацию:
-### Ответ
-
 фамилия и имя сотрудника из этого магазина;
 город нахождения магазина;
 количество пользователей, закреплённых в этом магазине.
+### Ответ
+SELECT 
+    CONCAT(staff.first_name, ' ', staff.last_name) AS сотрудник,
+    city.city AS город,
+    COUNT(customer.customer_id) AS количество_пользователей
+FROM 
+    store
+JOIN staff ON store.manager_staff_id = staff.staff_id
+JOIN address ON store.address_id = address.address_id
+JOIN city ON address.city_id = city.city_id
+JOIN customer ON store.store_id = customer.store_id
+GROUP BY 
+    store.store_id
+HAVING 
+    COUNT(customer.customer_id) > 300;
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/151b13d1-2188-43a0-8c7b-c5952f058197)
+
+
 ### Задание 2
 Получите количество фильмов, продолжительность которых больше средней продолжительности всех фильмов.
 ### Ответ
