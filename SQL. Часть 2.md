@@ -52,10 +52,18 @@ WHERE length > (SELECT AVG(length) FROM film);
 ### Задание 3
 Получите информацию, за какой месяц была получена наибольшая сумма платежей, и добавьте информацию по количеству аренд за этот месяц.
 ### Ответ
+SELECT
+    DATE_FORMAT(payment.payment_date, '%m') AS месяц,
+    MONTHNAME(payment.payment_date) AS название_месяца,
+    SUM(payment.amount) AS сумма_платежей,
+    COUNT(rental.rental_id) AS количество_аренд
+FROM
+    payment
+JOIN rental ON payment.rental_id = rental.rental_id
+GROUP BY
+    месяц, название_месяца
+ORDER BY
+    сумма_платежей DESC
+LIMIT 1;
 
-
-Задание 4*
-Посчитайте количество продаж, выполненных каждым продавцом. Добавьте вычисляемую колонку «Премия». Если количество продаж превышает 8000, то значение в колонке будет «Да», иначе должно быть значение «Нет».
-
-Задание 5*
-Найдите фильмы, которые ни разу не брали в аренду.
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/428c0d1a-4eba-4f19-a49d-c793232cbcdb)
