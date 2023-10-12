@@ -41,7 +41,13 @@
 - список доступных сетевых служб можно видеть на 2 скринах:
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/a02bb0ad-63a1-4298-88b0-871243ade4a5)
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/c6b5e341-2509-4820-8453-37817150d318)
-
+- мною были обнаруженны следюющие уязвимости:
+1. vsftpd 2.3.4 - Backdoor Command Execution (Metasploit)
+https://www.exploit-db.com/exploits/17491
+2. MySQL 5.0.x - IF Query Handling Remote Denial of Service
+https://www.exploit-db.com/exploits/30020
+3. Samba 3.5.0 - Remote Code Execution
+https://www.exploit-db.com/exploits/42060
 ### Задание 2
 
 Проведите сканирование Metasploitable в режимах SYN, FIN, Xmas, UDP.
