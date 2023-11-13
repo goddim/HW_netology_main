@@ -83,484 +83,389 @@ dd01a35078 Update CHANGELOG.md
 --------------------------------------------------------
 Найдите все коммиты, в которых была изменена функция `globalPluginDirs`.
 
-goddim@Ubuntu:~/terraform$ git log -p -S'globalPluginDirs'
+ищем файл с функцией во всем репозитории:
 
-commit 65c4ba736375607b6af6c035972f7f151232b6c6
+goddim@Ubuntu:~/terraform$ git grep -n 'func globalPluginDirs('
 
-Author: Valeriy Pastushenko <i@combin.name>
+plugins.go:21:func globalPluginDirs() []string {
 
-Date:   Sat May 21 19:53:24 2022 +0300
+теперь ищем иземенения в найденом файле:
 
+oddim@Ubuntu:~/terraform$ git log -p plugins.go
 
+commit 53c34ff49cfbc1f70d7cdd3dca8040551c53737a
 
-    Remove terraform binary
+Author: hashicorp-copywrite[bot] <110428419+hashicorp-copywrite[bot]@users.noreply.github.com>
 
+Date:   Thu Aug 10 23:43:27 2023 +0100
 
 
-diff --git a/terraform b/terraform
 
-deleted file mode 100644
+    Update copyright file headers to BUSL-1.1
 
-index d22a47ad86..0000000000
 
-Binary files a/terraform and /dev/null differ
 
+diff --git a/plugins.go b/plugins.go
 
+index defa9ddd2b..4e7415f676 100644
 
-commit 125eb51dc40b049b38bf2ed11c32c6f594c8ef96
+--- a/plugins.go
 
-Author: Alisdair McDiarmid <alisdair@users.noreply.github.com>
++++ b/plugins.go
 
-Date:   Thu May 5 10:12:00 2022 -0400
+@@ -1,5 +1,5 @@
 
+ // Copyright (c) HashiCorp, Inc.
 
+-// SPDX-License-Identifier: MPL-2.0
 
-    Remove accidentally-committed binary
-
-    
-
-    Also add this path to .gitignore to prevent future mistakes.
-
-
-
-diff --git a/terraform b/terraform
-
-deleted file mode 100755
-
-index 4453f47bf1..0000000000
-
-Binary files a/terraform and /dev/null differ
-
-:...skipping...
-
-commit 65c4ba736375607b6af6c035972f7f151232b6c6
-
-Author: Valeriy Pastushenko <i@combin.name>
-
-Date:   Sat May 21 19:53:24 2022 +0300
-
-
-
-    Remove terraform binary
-
-
-
-diff --git a/terraform b/terraform
-
-deleted file mode 100644
-
-index d22a47ad86..0000000000
-
-Binary files a/terraform and /dev/null differ
-
-
-
-commit 125eb51dc40b049b38bf2ed11c32c6f594c8ef96
-
-Author: Alisdair McDiarmid <alisdair@users.noreply.github.com>
-
-Date:   Thu May 5 10:12:00 2022 -0400
-
-
-
-    Remove accidentally-committed binary
-
-    
-
-    Also add this path to .gitignore to prevent future mistakes.
-
-
-
-diff --git a/terraform b/terraform
-
-deleted file mode 100755
-
-index 4453f47bf1..0000000000
-
-Binary files a/terraform and /dev/null differ
-
-
-
-commit 22c121df8631c4499d070329c9aa7f5b291494e1
-
-Author: Anna Winkler <3526523+annawinkler@users.noreply.github.com>
-
-Date:   Tue May 3 12:28:41 2022 -0600
-
-
-
-    Bump compatibility version to 1.3.0 for terraform core release (#30988)
-
-    
-
-    * Bump compatibility version to 1.3.0 for terraform core release
-
-    
-
-    Co-authored-by: Brandon Croft <brandon.croft@gmail.com>
-
-
-
-diff --git a/terraform b/terraform
-
-new file mode 100755
-
-index 0000000000..4453f47bf1
-
-Binary files /dev/null and b/terraform differ
-
-
-
-commit 7c7e5d8f0a6a50812e6e4db3016ebfd36fa5eaef
-
-Author: Valeriy Pastushenko <i@combin.name>
-
-Date:   Fri Sep 3 18:33:10 2021 +0300
-
-
-
-    Don't show data while input if sensitive
-
-
-
-diff --git a/terraform b/terraform
-
-new file mode 100644
-
-index 0000000000..d22a47ad86
-
-Binary files /dev/null and b/terraform differ
-
-~
-
-:
-
-
-commit 65c4ba736375607b6af6c035972f7f151232b6c6
-
-Author: Valeriy Pastushenko <i@combin.name>
-
-Date:   Sat May 21 19:53:24 2022 +0300
-
-
-
-    Remove terraform binary
-
-
-
-diff --git a/terraform b/terraform
-
-deleted file mode 100644
-
-index d22a47ad86..0000000000
-
-Binary files a/terraform and /dev/null differ
-
-
-
-commit 125eb51dc40b049b38bf2ed11c32c6f594c8ef96
-
-Author: Alisdair McDiarmid <alisdair@users.noreply.github.com>
-
-Date:   Thu May 5 10:12:00 2022 -0400
-
-
-
-    Remove accidentally-committed binary
-
-    
-
-    Also add this path to .gitignore to prevent future mistakes.
-
-
-
-diff --git a/terraform b/terraform
-
-deleted file mode 100755
-
-index 4453f47bf1..0000000000
-
-Binary files a/terraform and /dev/null differ
-
-
-
-commit 22c121df8631c4499d070329c9aa7f5b291494e1
-
-Author: Anna Winkler <3526523+annawinkler@users.noreply.github.com>
-
-Date:   Tue May 3 12:28:41 2022 -0600
-
-
-
-    Bump compatibility version to 1.3.0 for terraform core release (#30988)
-
-    
-
-    * Bump compatibility version to 1.3.0 for terraform core release
-
-    
-
-    Co-authored-by: Brandon Croft <brandon.croft@gmail.com>
-
-
-
-diff --git a/terraform b/terraform
-
-new file mode 100755
-
-index 0000000000..4453f47bf1
-
-Binary files /dev/null and b/terraform differ
-
-
-
-commit 7c7e5d8f0a6a50812e6e4db3016ebfd36fa5eaef
-
-Author: Valeriy Pastushenko <i@combin.name>
-
-Date:   Fri Sep 3 18:33:10 2021 +0300
-
-
-
-    Don't show data while input if sensitive
-
-
-
-diff --git a/terraform b/terraform
-
-new file mode 100644
-
-index 0000000000..d22a47ad86
-
-Binary files /dev/null and b/terraform differ
-
-
-
-commit 35a058fb3ddfae9cfee0b3893822c9a95b920f4c
-
-Author: Martin Atkins <mart@degeneration.co.uk>
-
-Date:   Thu Oct 19 17:40:20 2017 -0700
-
-
-
-    main: configure credentials from the CLI config file
-
-
-
-diff --git a/commands.go b/commands.go
-
-index b3380884de..39e30220df 100644
-
---- a/commands.go
-
-+++ b/commands.go
-
-@@ -4,10 +4,11 @@ import (
-
-        "os"
-
-        "os/signal"
++// SPDX-License-Identifier: BUSL-1.1
 
  
 
-+       "github.com/hashicorp/terraform/command"
+ package main
 
-+       pluginDiscovery "github.com/hashicorp/terraform/plugin/discovery"
+ 
 
-+       "github.com/hashicorp/terraform/svchost"
 
-        "github.com/hashicorp/terraform/svchost/auth"
 
-        "github.com/hashicorp/terraform/svchost/disco"
+commit 325d18262e9eeb20546e0d27ef002a14fbc21118
 
--
+Author: hashicorp-copywrite[bot] <110428419+hashicorp-copywrite[bot]@users.noreply.github.com>
 
--       "github.com/hashicorp/terraform/command"
+Date:   Tue May 2 15:33:06 2023 +0000
 
-        "github.com/mitchellh/cli"
+
+
+    [COMPLIANCE] Add Copyright and License Headers
+
+
+
+diff --git a/plugins.go b/plugins.go
+
+index be576e81ac..defa9ddd2b 100644
+
+--- a/plugins.go
+
++++ b/plugins.go
+
+@@ -1,3 +1,6 @@
+
++// Copyright (c) HashiCorp, Inc.
+
++// SPDX-License-Identifier: MPL-2.0
+
++
+
+ package main
+
+ 
+
+ import (
+
+
+
+commit ffe056bacb9f2cf403fa3b6b894c5fbe1fa850a7
+
+Author: Martin Atkins <mart@degeneration.co.uk>
+
+Date:   Mon May 17 12:07:38 2021 -0700
+
+
+
+    Move command/ to internal/command/
+
+    
+
+    This is part of a general effort to move all of Terraform's non-library
+
+    package surface under internal in order to reinforce that these are for
+
+    internal use within Terraform only.
+
+    
+
+    If you were previously importing packages under this prefix into an
+
+    external codebase, you could pin to an earlier release tag as an interim
+
+    solution until you've make a plan to achieve the same functionality some
+
+    other way.
+
+
+
+diff --git a/plugins.go b/plugins.go
+
+index 47ae2e4f61..be576e81ac 100644
+
+--- a/plugins.go
+
++++ b/plugins.go
+
+@@ -6,7 +6,7 @@ import (
+
+        "path/filepath"
+
+        "runtime"
+
+ 
+
+-       "github.com/hashicorp/terraform/command/cliconfig"
+
++       "github.com/hashicorp/terraform/internal/command/cliconfig"
 
  )
 
  
 
-@@ -34,7 +35,7 @@ func initCommands(config *Config) {
+ // globalPluginDirs returns directories that should be searched for
 
-                inAutomation = true
 
-        }
 
- 
+commit 78b12205587fe839f10d946ea3fdc06719decb05
 
--       credsSrc := auth.NoCredentials // TODO: Actually expose credentials here
+Author: Pam Selle <204372+pselle@users.noreply.github.com>
 
-+       credsSrc := credentialsSource(config)
+Date:   Mon Jan 13 16:50:05 2020 -0500
 
-        services := disco.NewDisco()
 
-        services.SetCredentialsSource(credsSrc)
 
- 
+    Remove config.go and update things using its aliases
 
-@@ -342,3 +343,43 @@ func makeShutdownCh() <-chan struct{} {
 
- 
 
-        return resultCh
+diff --git a/plugins.go b/plugins.go
 
- }
+index cf2d542535..47ae2e4f61 100644
 
-+
+--- a/plugins.go
 
-+func credentialsSource(config *Config) auth.CredentialsSource {
++++ b/plugins.go
 
-+       creds := auth.NoCredentials
+@@ -5,6 +5,8 @@ import (
 
-+       if len(config.Credentials) > 0 {
-
-+               staticTable := map[svchost.Hostname]map[string]interface{}{}
-
-+               for userHost, creds := range config.Credentials {
-
-+                       host, err := svchost.ForComparison(userHost)
-
-+                       if err != nil {
-
-+                               // We expect the config was already validated by the time we get
-
-+                               // here, so we'll just ignore invalid hostnames.
-
-+                               continue
-
-+                       }
-
-+                       staticTable[host] = creds
-
-+               }
-
-+               creds = auth.StaticCredentialsSource(staticTable)
-
-+       }
-
-+
-
-+       for helperType, helperConfig := range config.CredentialsHelpers {
-
-+               available := pluginDiscovery.FindPlugins("credentials", globalPluginDirs())
-
-+               available = available.WithName(helperType)
-
-+               if available.Count() == 0 {
-
-+                       break
-
-+               }
-
-+
-
-+               selected := available.Newest()
-
-+
-
-+               helperSource := auth.HelperProgramCredentialsSource(selected.Path, helperConfig.Args...)
-
-+               creds = auth.Credentials{
-
-+                       creds,
-
-+                       auth.CachingCredentialsSource(helperSource), // cached because external operation may be slow/expensive
-
-+               }
-
-+
-
-+               // There should only be zero or one "credentials_helper" blocks. We
-
-+               // assume that the config was validated earlier and so we don't check
-
-+               // for extras here.
-
-+               break
-
-+       }
-
-+
-
-+       return creds
-
-+}
-
-
-
-commit c0b17610965450a89598da491ce9b6b5cbd6393f
-
-Author: James Bardin <j.bardin@gmail.com>
-
-Date:   Mon Jun 12 15:04:40 2017 -0400
-
-
-
-    prevent log output during init
-
-    
-
-    The extra output shouldn't be seen by the user, and is causing TFE to
-
-    fail.
-
-
-
-diff --git a/config_unix.go b/config_unix.go
-
-index 4694d5114d..d28d749248 100644
-
---- a/config_unix.go
-
-+++ b/config_unix.go
-
-@@ -5,7 +5,6 @@ package main
-
- import (
-
-        "bytes"
-
-        "errors"
-
--       "log"
-
-        "os"
-
-        "os/exec"
+        "log"
 
         "path/filepath"
 
-@@ -33,7 +32,12 @@ func configDir() (string, error) {
-
- func homeDir() (string, error) {
-
-        // First prefer the HOME environmental variable
-
-        if home := os.Getenv("HOME"); home != "" {
-
--               log.Printf("[DEBUG] Detected home directory from env var: %s", home)
+        "runtime"
 
 +
 
-+               // FIXME: homeDir gets called from globalPluginDirs during init, before
++       "github.com/hashicorp/terraform/command/cliconfig"
 
-+               // the logging is setup.  We should move meta initializtion outside of
+ )
 
-+               // init, but in the meantime we just need to silence this output.
+ 
 
-+               //log.Printf("[DEBUG] Detected home directory from env var: %s", home)
+ // globalPluginDirs returns directories that should be searched for
 
-+
+@@ -16,7 +18,7 @@ import (
 
-                return home, nil
+ func globalPluginDirs() []string {
+
+        var ret []string
+
+        // Look in ~/.terraform.d/plugins/ , or its equivalent on non-UNIX
+
+-       dir, err := ConfigDir()
+
++       dir, err := cliconfig.ConfigDir()
+
+        if err != nil {
+
+                log.Printf("[ERROR] Error finding global config directory: %s", err)
+
+        } else {
+
+
+
+commit 52dbf94834cb970b510f2fba853a5b49ad9b1a46
+
+Author: James Bardin <j.bardin@gmail.com>
+
+Date:   Wed Aug 9 17:46:49 2017 -0400
+
+
+
+    keep .terraform.d/plugins for discovery
+
+
+
+diff --git a/plugins.go b/plugins.go
+
+index 668c516542..cf2d542535 100644
+
+--- a/plugins.go
+
++++ b/plugins.go
+
+@@ -21,6 +21,7 @@ func globalPluginDirs() []string {
+
+                log.Printf("[ERROR] Error finding global config directory: %s", err)
+
+        } else {
+
+                machineDir := fmt.Sprintf("%s_%s", runtime.GOOS, runtime.GOARCH)
+
++               ret = append(ret, filepath.Join(dir, "plugins"))
+
+                ret = append(ret, filepath.Join(dir, "plugins", machineDir))
 
         }
 
  
+
+
+
+commit 41ab0aef7a0fe030e84018973a64135b11abcd70
+
+Author: James Bardin <j.bardin@gmail.com>
+
+Date:   Wed Aug 9 10:34:11 2017 -0400
+
+
+
+    Add missing OS_ARCH dir to global plugin paths
+
+    
+
+    When the global directory was added, the discovery system still
+
+    attempted to search for OS_ARCH subdirectories. It has since been
+
+    changed only search explicit paths.
+
+
+
+diff --git a/plugins.go b/plugins.go
+
+index bf23978062..668c516542 100644
+
+--- a/plugins.go
+
++++ b/plugins.go
+
+@@ -1,8 +1,10 @@
+
+ package main
+
+ 
+
+ import (
+
++       "fmt"
+
+        "log"
+
+        "path/filepath"
+
++       "runtime"
+
+ )
+
+ 
+
+ // globalPluginDirs returns directories that should be searched for
+
+@@ -18,7 +20,8 @@ func globalPluginDirs() []string {
+
+        if err != nil {
+
+                log.Printf("[ERROR] Error finding global config directory: %s", err)
+
+        } else {
+
+-               ret = append(ret, filepath.Join(dir, "plugins"))
+
++               machineDir := fmt.Sprintf("%s_%s", runtime.GOOS, runtime.GOARCH)
+
++               ret = append(ret, filepath.Join(dir, "plugins", machineDir))
+
+        }
+
+ 
+
+        return ret
+
+
+
+commit 66ebff90cdfaa6938f26f908c7ebad8d547fea17
+
+Author: James Bardin <j.bardin@gmail.com>
+
+Date:   Wed May 3 22:24:51 2017 -0400
+
+
+
+    move some more plugin search path logic to command
+
+    
+
+    Make less to change when we remove the old search path
+
+
+
+diff --git a/plugins.go b/plugins.go
+
+index 9717724a0a..bf23978062 100644
+
+--- a/plugins.go
+
++++ b/plugins.go
+
+@@ -3,8 +3,6 @@ package main
+
+ import (
+
+        "log"
+
+        "path/filepath"
+
+-
+
+-       "github.com/kardianos/osext"
+
+ )
+
+ 
+
+ // globalPluginDirs returns directories that should be searched for
+
+@@ -15,16 +13,6 @@ import (
+
+ // older versions where both satisfy the provider version constraints.
+
+ func globalPluginDirs() []string {
+
+        var ret []string
+
+-
+
+-       // Look in the same directory as the Terraform executable.
+
+-       // If found, this replaces what we found in the config path.
+
+-       exePath, err := osext.Executable()
+
+-       if err != nil {
+
+-               log.Printf("[ERROR] Error discovering exe directory: %s", err)
+
+-       } else {
+
+-               ret = append(ret, filepath.Dir(exePath))
+
+-       }
+
+-
+
+        // Look in ~/.terraform.d/plugins/ , or its equivalent on non-UNIX
+
+        dir, err := ConfigDir()
+
+        if err != nil {
 
 
 
@@ -611,42 +516,6 @@ Date:   Thu Apr 13 18:05:58 2017 -0700
     use this new mechanism.
 
 
-
-diff --git a/commands.go b/commands.go
-
-index 409f4d85df..c4dca2d670 100644
-
---- a/commands.go
-
-+++ b/commands.go
-
-@@ -30,9 +30,10 @@ func init() {
-
-        }
-
- 
-
-        meta := command.Meta{
-
--               Color:       true,
-
--               ContextOpts: &ContextOpts,
-
--               Ui:          Ui,
-
-+               Color:            true,
-
-+               GlobalPluginDirs: globalPluginDirs(),
-
-+               PluginOverrides:  &PluginOverrides,
-
-+               Ui:               Ui,
-
-        }
-
- 
-
-        // The command list is included in the terraform -help
 
 diff --git a/plugins.go b/plugins.go
 
@@ -733,6 +602,10 @@ index 0000000000..9717724a0a
 +       return ret
 
 +}
+
+
+
+
 
 ----------------------------------
 Кто автор функции `synchronizedWriters`? 
