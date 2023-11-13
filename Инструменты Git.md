@@ -31,8 +31,9 @@
 
 *В качестве решения ответьте на вопросы и опишите, как были получены эти ответы.*
 
-## ОТВЕТ
+## ОТВЕТЫ
 1. Найдите полный хеш и комментарий коммита, хеш которого начинается на `aefea`.
+   
    goddim@Ubuntu:~/terraform$ git log --oneline | grep -i aefea
 aefead2207 Update CHANGELOG.md
 ---------------
@@ -42,6 +43,7 @@ aefead2207 Update CHANGELOG.md
 v0.12.23
 ------------------
 * Сколько родителей у коммита `b8d720`? Напишите их хеши.
+* 
 goddim@Ubuntu:~/terraform$ git log --pretty=%P -n 1 b8d720
 
 56cd7859e05c36c06b56d013b55a252d0bb7e158 9ea88f22fc6269854151c571162c5bcf958bee2b
@@ -50,6 +52,7 @@ goddim@Ubuntu:~/terraform$ git log --pretty=%P -n 1 b8d720
 Хеш второго родителя: 9ea88f22fc6269854151c571162c5bcf958bee2b
 -----------------------------------------------------------------
 * Перечислите хеши и комментарии всех коммитов, которые были сделаны между тегами  v0.12.23 и v0.12.24.
+* 
   goddim@Ubuntu:~/terraform$ git log --oneline v0.12.23..v0.12.24
 
 33ff1c03bb (tag: v0.12.24) v0.12.24
@@ -73,11 +76,13 @@ dd01a35078 Update CHANGELOG.md
 225466bc3e Cleanup after v0.12.23 release
 -----------------------------------------------
 * Найдите коммит, в котором была создана функция `func providerSource`, её определение в коде выглядит так: `func providerSource(...)` (вместо троеточия перечислены аргументы).
+  
   goddim@Ubuntu:~/terraform$ git log -S'func providerSource(' --oneline
 
 8c928e8358 main: Consult local directories as potential mirrors of providers
 --------------------------------------------------------
 Найдите все коммиты, в которых была изменена функция `globalPluginDirs`.
+
 goddim@Ubuntu:~/terraform$ git log -p -S'globalPluginDirs'
 
 commit 65c4ba736375607b6af6c035972f7f151232b6c6
@@ -731,6 +736,7 @@ index 0000000000..9717724a0a
 
 ----------------------------------
 Кто автор функции `synchronizedWriters`? 
+
 goddim@Ubuntu:~/terraform$ git log -S'synchronizedWriters' --pretty="%an <%ae>"
 
 James Bardin <j.bardin@gmail.com>
@@ -741,6 +747,7 @@ Martin Atkins <mart@degeneration.co.uk>
 
 ___________________________
 
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/9a88def1-85b4-4df4-9bd0-7d710af4bc1f)
 
 
 ---
