@@ -10,9 +10,6 @@
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/3bf84e0a-582c-4553-9220-860d0e4be5cc)
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/aa112312-b5ab-4334-944c-3eb6207eeaba)
 
-
-
-
 ## Задача 2
 
 - создайте пользователя test-admin-user и БД test_db;
@@ -43,6 +40,7 @@
 ## ОТВЕТ
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/0ece8616-6ddf-47b9-8c96-b399ef7b4f55)
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/3b5888fa-9628-4c15-aa24-2aad6ec4ab69)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/a4a66a89-14aa-434e-b3a3-91e4ab9d6b67)
 
 
 ## Задача 3
