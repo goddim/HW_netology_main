@@ -1,9 +1,4 @@
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/fe766a57-7496-4e58-b6a2-9fac2e7a7299)![image](https://github.com/goddim/HW_netology_main/assets/132663924/e8d34d34-54f7-4e83-8620-cd904af713ed)# Домашнее задание к занятию 2. «SQL»
-
-## Введение
-
-Перед выполнением задания вы можете ознакомиться с 
-[дополнительными материалами](https://github.com/netology-code/virt-homeworks/blob/virt-11/additional/README.md).
+Домашнее задание к занятию 2. «SQL»
 
 ## Задача 1
 
@@ -18,8 +13,6 @@
 
 
 ## Задача 2
-
-В БД из задачи 1: 
 
 - создайте пользователя test-admin-user и БД test_db;
 - в БД test_db создайте таблицу orders и clients (спeцификация таблиц ниже);
