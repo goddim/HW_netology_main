@@ -127,3 +127,7 @@
 
 Приведите список операций, который вы применяли для бэкапа данных и восстановления. 
 ## ОТВЕТ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/51621671-428c-4c29-ad2d-12693cff47d6)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/3ec3b2ba-4719-4b5f-be6a-6e7ee478f3ef)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/9b689e61-fb5d-4c59-8409-578d73e2af5a)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/bc0892bd-a9fc-4beb-8434-151cc7a86335)
