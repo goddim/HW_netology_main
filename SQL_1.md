@@ -1,4 +1,4 @@
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/e8d34d34-54f7-4e83-8620-cd904af713ed)# Домашнее задание к занятию 2. «SQL»
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/fe766a57-7496-4e58-b6a2-9fac2e7a7299)![image](https://github.com/goddim/HW_netology_main/assets/132663924/e8d34d34-54f7-4e83-8620-cd904af713ed)# Домашнее задание к занятию 2. «SQL»
 
 ## Введение
 
@@ -84,6 +84,8 @@
     - запросы,
     - результаты их выполнения.
 ## ОТВЕТ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/c7b2fdc5-f269-4b4d-9a5f-2d9e0c592c2b)
+
 
 
 ## Задача 4
