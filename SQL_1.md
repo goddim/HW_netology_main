@@ -12,6 +12,9 @@
 
 Приведите получившуюся команду или docker-compose-манифест.
 ## ОТВЕТ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/c5be799b-d69d-407d-af04-1483a863e993)
+
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/cadc9960-42c7-475c-9c52-fd30ac2e681b)
 
 
 ## Задача 2
