@@ -41,10 +41,9 @@
 - SQL-запрос для выдачи списка пользователей с правами над таблицами test_db;
 - список пользователей с правами над таблицами test_db.
 ## ОТВЕТ
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/6406ee82-a213-40e7-8a65-c87ebc6bf573)
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/e5a634b8-b9d9-4221-bdb3-796e2d7414b3)
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/4a7a6512-c5e4-419d-8ec4-242b56b24d2c)
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/fea5e79e-309b-477b-b8b9-026c7e1ef0f6)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/0ece8616-6ddf-47b9-8c96-b399ef7b4f55)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/3b5888fa-9628-4c15-aa24-2aad6ec4ab69)
+
 
 ## Задача 3
 
