@@ -75,9 +75,8 @@
     - запросы,
     - результаты их выполнения.
 ## ОТВЕТ
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/c7b2fdc5-f269-4b4d-9a5f-2d9e0c592c2b)
-
-
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/cbac7407-10cd-4e6f-a097-2c1fafcd0554)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/ca825cd9-fc98-42c6-813d-8d6e2e3a174e)
 
 ## Задача 4
 
@@ -97,7 +96,8 @@
  
 Подсказка: используйте директиву `UPDATE`.
 ## ОТВЕТ
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/7fe54c5a-abb5-4844-a5a6-e56237897a1a)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/0b39ac63-842b-4133-8ddd-2faefe1fa218)
+
 
 
 ## Задача 5
@@ -107,7 +107,7 @@
 
 Приведите получившийся результат и объясните, что значат полученные значения.
 ## ОТВЕТ
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/0f528ea3-c83b-4ffa-ae83-c4499f34bdf6)
+
 
 Результат выполнения команды EXPLAIN содержит информацию о плане выполнения запроса:
 
