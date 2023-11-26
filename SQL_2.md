@@ -7,9 +7,10 @@
 
 Приведите получившуюся команду или docker-compose-манифест.
 ## ОТВЕТ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/3bf84e0a-582c-4553-9220-860d0e4be5cc)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/aa112312-b5ab-4334-944c-3eb6207eeaba)
 
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/cdeebeac-9990-4449-bf65-f8049544aa6f)
-![image](https://github.com/goddim/HW_netology_main/assets/132663924/d92e3c65-2e1a-43d6-a5d4-48f6467f2572)
+
 
 
 ## Задача 2
