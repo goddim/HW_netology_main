@@ -106,6 +106,7 @@
  
 Подсказка: используйте директиву `UPDATE`.
 ## ОТВЕТ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/7fe54c5a-abb5-4844-a5a6-e56237897a1a)
 
 
 ## Задача 5
