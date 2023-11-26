@@ -48,6 +48,7 @@
 - список пользователей с правами над таблицами test_db.
 ## ОТВЕТ
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/6406ee82-a213-40e7-8a65-c87ebc6bf573)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/e5a634b8-b9d9-4221-bdb3-796e2d7414b3)
 
 
 ## Задача 3
