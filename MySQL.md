@@ -52,6 +52,8 @@
 - на `MyISAM`,
 - на `InnoDB`.
 ## ОТВЕТ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/346d8dcb-89b6-4d31-a201-b94c1663e39e)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/e4b3e79b-be47-44f6-94c6-bcae0fb6e8cc)
 
 
 ## Задача 4 
