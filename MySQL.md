@@ -70,6 +70,7 @@
 
 Приведите в ответе изменённый файл `my.cnf`.
 ## ОТВЕТ
+
 [mysqld]
 innodb_flush_log_at_trx_commit = 0  
 innodb_file_per_table = 1 
