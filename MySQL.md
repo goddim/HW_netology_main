@@ -70,5 +70,17 @@
 
 Приведите в ответе изменённый файл `my.cnf`.
 ## ОТВЕТ
+[mysqld]
+innodb_flush_log_at_trx_commit = 0  
+innodb_file_per_table = 1 
+innodb_log_file_size = 100M  
+innodb_buffer_pool_size = 30%  
+[mysqldump]
+quick
+quote-names
+max_allowed_packet = 16M
+
+[isamchk]
+key_buffer = 16M
 
 
