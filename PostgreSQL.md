@@ -17,7 +17,8 @@
 - выхода из psql.
 
 ## ОТВЕТ
-https://github.com/goddim/HW_netology_main/issues/147#issue-2018611268
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/e9343208-fda3-4a3c-9acb-5168317a14ab)
+
 
 ## Задача 2
 
