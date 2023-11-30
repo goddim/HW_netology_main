@@ -16,6 +16,9 @@
 - вывода описания содержимого таблиц,
 - выхода из psql.
 
+## ОТВЕТ
+https://github.com/goddim/HW_netology_main/issues/147#issue-2018611268
+
 ## Задача 2
 
 Используя `psql`, создайте БД `test_database`.
