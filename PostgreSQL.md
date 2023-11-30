@@ -76,6 +76,13 @@ COMMIT;
 
 ## ОТВЕТ
 
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/c408bd53-8b7f-40f1-ba1f-a1717b5776cd)
+
+для дороботки файла...., можно предложить следующий вариант:
+
+ALTER TABLE orders ADD CONSTRAINT unique_title UNIQUE (title);
+
+
 ---
 
 ### Как cдавать задание
