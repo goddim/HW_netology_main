@@ -53,6 +53,18 @@
 
 ## ОТВЕТ
 
+BEGIN;
+
+CREATE TABLE orders_1 AS
+SELECT * FROM orders WHERE price > 499;
+
+CREATE TABLE orders_2 AS
+SELECT * FROM orders WHERE price <= 499;
+
+DROP TABLE orders;
+
+COMMIT;
+
 ## Задача 4
 
 Используя утилиту `pg_dump`, создайте бекап БД `test_database`.
