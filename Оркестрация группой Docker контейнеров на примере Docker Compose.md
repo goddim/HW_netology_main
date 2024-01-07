@@ -41,6 +41,9 @@ https://hub.docker.com/layers/vyashkin/custom-nginx/1.0.0/images/sha256-c12f0763
 4. Убедитесь с помощью curl или веб браузера, что индекс-страница доступна.
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
+### ОТВЕТ
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/0554b1ad-a31d-4757-be68-28f6e7363652)
+
 
 
 ## Задача 3
