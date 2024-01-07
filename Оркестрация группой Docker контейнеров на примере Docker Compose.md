@@ -61,6 +61,10 @@ https://hub.docker.com/layers/vyashkin/custom-nginx/1.0.0/images/sha256-c12f0763
 12. Удалите запущенный контейнер "custom-nginx-t2", не останавливая его.(воспользуйтесь --help или google)
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
+### ОТВЕТ
+Использование команды Ctrl-C в интерактивной оболочке контейнера, прерывает процесс внутри контейнера, а не останавлливаен контейнер. Для остановки контейнера нужно использовать - docker stop 91edd6b1f9f8
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/8cff0fa5-671c-44a9-9853-39662c137127)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/97c1d8b7-5279-41bc-a682-dd2731b3ad3b)
 
 ## Задача 4
 
