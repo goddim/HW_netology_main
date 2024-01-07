@@ -27,6 +27,9 @@ Hey, Netology
 ```
 - Соберите и отправьте созданный образ в свой dockerhub-репозитории c tag 1.0.0 . 
 - Предоставьте ответ в виде ссылки на https://hub.docker.com/<username_repo>/custom-nginx/general .
+## ОТВЕТ
+https://hub.docker.com/layers/vyashkin/custom-nginx/1.0.0/images/sha256-c12f07632f251495e60f8fa6f5650210a6d40971a7b87e6cda74607435049cb3?context=repo
+
 
 ## Задача 2
 1. Запустите ваш образ custom-nginx:1.0.0 командой docker run в соответвии с требованиями:
