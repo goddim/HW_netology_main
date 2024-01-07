@@ -65,6 +65,10 @@ https://hub.docker.com/layers/vyashkin/custom-nginx/1.0.0/images/sha256-c12f0763
 Использование команды Ctrl-C в интерактивной оболочке контейнера, прерывает процесс внутри контейнера, а не останавлливаен контейнер. Для остановки контейнера нужно использовать - docker stop 91edd6b1f9f8
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/8cff0fa5-671c-44a9-9853-39662c137127)
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/97c1d8b7-5279-41bc-a682-dd2731b3ad3b)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/af4e82d4-c99e-4c41-8234-bf93d89622ff)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/e5cc3ed2-b3ad-45e1-aaa7-1ee19c34e081)
+Соединение было разорвано, так как на предыдущем этапе мы заменили "Слушающий порт" на 81
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/7e2d67ba-1379-4fac-9695-0189d3850830)
 
 ## Задача 4
 
