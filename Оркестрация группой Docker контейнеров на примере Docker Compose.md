@@ -138,6 +138,15 @@ services:
 
 Docker compose (DC) пытается найти файлы с определенными именами (например, docker-compose.yaml или docker-compose.yml), чтобы использовать их в качестве файлов конфигурации для запуска сервисов. В случае, если обнаруживается несколько файлов с подходящими именами, Docker выбирает первый файл, который он обнаруживает в соответствии с внутренним порядком приоритетов. В моем случае - compose.yaml
 
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/ec53552d-0451-4482-9086-da41bc77e25e)
+
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/34eabd41-8fae-4de3-93a5-9011b8a26cb2)
+
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/26ffc5e9-411b-4d33-8483-9d3e0035ba92)
+
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/49d07677-e281-4a14-a0cd-a68d095fcc49)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/dbaba204-3623-4e57-96ef-96db4321637d)
+
 ---
 
 ### Правила приема
