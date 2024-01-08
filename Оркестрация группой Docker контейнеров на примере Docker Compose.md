@@ -149,6 +149,8 @@ Docker compose (DC) пытается найти файлы с определен
 
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/a22ae4c3-5140-4916-98c4-9b6cd9d6b69e)
 
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/a18af6d6-f9b3-4a44-8ac1-2aa5d975540b)
+
 ---
 
 ### Правила приема
