@@ -152,9 +152,7 @@ Docker compose (DC) пытается найти файлы с определен
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/a18af6d6-f9b3-4a44-8ac1-2aa5d975540b)
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/1e3621ba-afd0-4ba0-85a6-3dcee0d1b0cb)
 ![image](https://github.com/goddim/HW_netology_main/assets/132663924/ad969554-38a3-4948-9bc4-2d4ed5876698)
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/2ba0e238-6769-4935-bb0a-b39d0b6ec4eb)
 
----
 
-### Правила приема
-
-Домашнее задание выполните в файле readme.md в GitHub-репозитории. В личном кабинете отправьте на проверку ссылку на .md-файл в вашем репозитории.
+DС обнаружил запущенные контейнеры, которые были созданы предыдущим запуском вашего проекта, но которые не были упомянуты в вашем текущем файле конфигурации DС. Для решения этой проблемы я удаляю "сироту" (orphan) с помощью флага --remove-orphans.
