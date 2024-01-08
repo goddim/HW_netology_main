@@ -81,6 +81,8 @@ https://hub.docker.com/layers/vyashkin/custom-nginx/1.0.0/images/sha256-c12f0763
 
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
+## ОТВЕТ 
+![image](https://github.com/goddim/HW_netology_main/assets/132663924/a8b57af9-db0d-4606-a91b-b65b0dcb9265)
 
 
 ## Задача 5
